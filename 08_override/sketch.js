@@ -13,7 +13,7 @@ function setup(){
   noCanvas();
   let n = floor(random(3)) + 1;
   let img = createImg('pic/' + n + '.png');
-  img.size(windowsWidth,windowsHeight);
-  img.position(100,100);
+  img.size(530,480);
+  img.position(30,150);
 
 }
